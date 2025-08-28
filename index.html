@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Demo Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>JavaScript Demo Project</h1>
+            <p>A simple demonstration of JavaScript fundamentals</p>
+        </header>
+        
+        <!-- Part 1: Variables and Conditionals -->
+        <section class="section">
+            <h2>Part 1: Variables & Conditionals</h2>
+            <p>This section demonstrates variable declarations and conditional statements.</p>
+            
+            <div class="flex">
+                <input type="number" id="ageInput" placeholder="Enter your age">
+                <button onclick="checkAge()">Check Age</button>
+            </div>
+            
+            <div class="output" id="ageOutput">
+                Output will appear here...
+            </div>
+        </section>
+        
+        <!-- Part 2: Functions -->
+        <section class="section">
+            <h2>Part 2: Functions</h2>
+            <p>This section demonstrates custom functions.</p>
+            
+            <div class="flex">
+                <input type="number" id="num1" placeholder="First number">
+                <input type="number" id="num2" placeholder="Second number">
+                <button onclick="calculate()">Calculate</button>
+            </div>
+            
+            <div class="output" id="functionOutput">
+                Output will appear here...
+            </div>
+        </section>
+        
+        <!-- Part 3: Loops -->
+        <section class="section">
+            <h2>Part 3: Loops</h2>
+            <p>This section demonstrates different types of loops.</p>
+            
+            <div class="flex">
+                <button onclick="runLoops()">Run Loops</button>
+            </div>
+            
+            <div class="output" id="loopOutput">
+                Output will appear here...
+            </div>
+        </section>
+        
+        <!-- Part 4: DOM Interactions -->
+        <section class="section">
+            <h2>Part 4: DOM Interactions</h2>
+            <p>This section demonstrates DOM manipulation.</p>
+            
+            <div class="flex">
+                <button onclick="changeBackground()">Change Background</button>
+                <button onclick="addItem()">Add List Item</button>
+                <button onclick="toggleHighlight()">Toggle Highlight</button>
+            </div>
+            
+            <div class="output">
+                <p>This is a simple list:</p>
+                <ul id="demoList">
+                    <li>Initial item 1</li>
+                    <li>Initial item 2</li>
+                </ul>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
